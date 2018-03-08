@@ -14,8 +14,8 @@ let procedures = ['Root Canal', 'Crown', 'Checkup', 'Cavity Filling', 'TOOTH REM
 class App extends Component {
   render() {
     return (
-      {/* this is the wrapper for our routing */}
       <Router>
+        {/* ^^^ this is the wrapper for our routing */}
         {/* Router requires one child, so wrapping your routes in a div is required */}
         <div>
           <nav>
